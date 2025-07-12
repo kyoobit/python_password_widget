@@ -279,8 +279,8 @@ def get_arguments(args=None):
         "--iterations",
         "-N",
         type=int,
-        default=1,
-        help="Loop the output as input for N iterations (default=1)",
+        default=5000,
+        help="Loop the output as input for N iterations (default=5000)",
     )
 
     ## Display options

@@ -352,8 +352,8 @@ def test_main(capsys):
     captured = capsys.readouterr()
     assert (
         captured.out
-        == """sha3_384 ---> 9OS4,Bxb:PZ1JfU6k=P53Iz4g+q3(7Sf[wI\
-3[wkac&v9_!P2u~q2u~J2,BG4;QrbGcUcNjkff*6aUqe88NS9Qmk1OklaLhWbn@25IeS2Mil4"1+eWs\
-E9,BTe`#q4_!Wa3Ix4*9k9u~u5#2k6\\xSdd(A9"1h2q`p9?UT7MiZei;F1Gce1p_+3p_9aKgp9Yuv6\
-?U9c$316(7y4Hd7bNj8ap_h4`#c4k=68FbJ03I38_!H6Zvn9 (240)\n"""
+        == """sha3_384 ---> Wsqak=raEa1bKg0dXtB7(7R4r{j0RnE5OkI1GcC8BXlc^zo46L6\
+29Ox01GH2AW/9IeZ6!0Q8Jfde:P4bIe31Wsn1;Q5fPlxfm?r6&515b%c0KgR71G97?UF8Lhhd,BqeYu\
+h7!0je"1e7l>K1BXYa0F+f:Pq5g+R7j<z1IeF1+ALfu~k4Wsm57Me8:PH6f*Va(7R8c&W6;QV3.DK7f\
+*T8s|VaGcF69On33IAeMisaq`B9OkL1 (240)\n"""
     )
