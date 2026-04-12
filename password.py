@@ -315,7 +315,6 @@ def main(args):
 
     ## Use a predictable one-way hash algorithm
     else:
-
         ## Allow passing the output as input in multiple loops
         iterations = int(args.iterations)
         while iterations > 0:
