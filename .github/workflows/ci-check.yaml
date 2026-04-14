@@ -16,7 +16,7 @@ on:
 jobs:
 
   ## This builds the application and runs CI checks
-  ## A matrix stategy is used to allow for future python versions
+  ## A matrix strategy is used to allow for future python versions
   build:
     runs-on: ubuntu-latest
     strategy:
@@ -24,10 +24,11 @@ jobs:
         python-version: ["3.12", "3.13", "3.14"]
 
     steps:
-      ## https://github.com/actions/checkout
-      - uses: actions/checkout@v5
+      ## https://github.com/actions/checkout/releases
+      - uses: actions/checkout@v6
 
-      ## https://github.com/actions/setup-python
+      ## https://github.com/actions/setup-python/releases
+      ## https://github.com/actions/python-versions/blob/main/versions-manifest.json
       - name: Set up Python ${{ matrix.python-version }}
         uses: actions/setup-python@v6
         with:
